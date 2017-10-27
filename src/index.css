@@ -42,3 +42,12 @@ body {
   background-color: #F52F4F;
   color: #FFFFFF;
 }
+
+.zero:before {
+  content: '[ ';
+}
+
+
+.zero:after {
+  content: ' ]';
+}
