@@ -51,3 +51,22 @@ body {
 .zero:after {
   content: ' ]';
 }
+
+
+input {
+  border: solid 1px darkgray;
+  padding: 4px;
+}
+.account input[type="text"] {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.account input[value="Withdraw"] {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.transaction-history {
+  text-align: left;
+}
